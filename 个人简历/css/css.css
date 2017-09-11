@@ -1,0 +1,345 @@
+*{margin:0;padding:0;font-family:"Microsoft YaHei"}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+img{border:none;}
+li{list-style:none;}
+a{text-decoration:none; color:white;}
+
+
+/*     首页     */
+     
+.shouye{
+	width: 100%;
+	height: 100vh;
+	background-color:   khaki;
+	
+}
+.shouye p{
+	text-align: center;
+	font-size: 150px;
+	color: white;
+	position: relative;
+}
+@-webkit-keyframes xiangxia
+ {
+      0% {top:0px;}
+    100% { top:400px;}  
+}
+
+/*     导航     */
+
+.daohang ul {
+	width: 100px;
+	height:  100vh;
+	background-color: black;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 33;
+	
+	
+}
+
+.daohang ul li:first-child{
+	
+	height: 70%;
+	
+}
+.daohang ul li img{
+	border-radius:50px ;
+	width: 80px;
+	height: 80px;
+	margin-top: 50px;
+}
+
+.daohang ul li
+{
+	text-align: center;
+	color: white;
+	height: 40px;	
+	line-height: 40px;
+}
+
+
+.daohang ul li a{
+	height: 40px;
+	display: block;
+	
+}
+.daohang ul li a:hover{
+	color:  #000000;
+	background-color: white;
+}
+
+
+
+/*     个人简介     */
+.jianjie{
+	height:  100vh;
+	width: 100%;
+	background-color:  greenyellow;
+	position: relative;
+}
+.jianjie-1 img{
+           display: block;
+           margin: 0px auto;
+          width: 200px;
+          height: 200px;
+          border-radius:300px ;
+}
+.ul-2 a{
+	color: dimgray;
+}
+.jianjie-1 ul{
+	width: 700px;
+	margin:50px auto;
+	
+}
+.jianjie-1 ul li p{
+	color:   dimgray;
+	text-align: center;
+}
+.jianjie-1 ul li{
+	float: left;
+	padding-left: 40px;
+
+}
+.jianjie-1 ul li img{
+	width: 105px;
+	height: 90px;
+	transition: 1s;
+}
+.jianjie-1 ul{
+	color:   dimgray;
+	width: 700px;
+	height: 50px;
+	
+}
+.jianjie-1 ul li img:hover{
+	
+	transform: rotate(360deg);
+}
+.ul-2 li{
+	margin-top: 50px;
+	float:   left;
+	text-align: left;
+}
+.jianjie-2 ul{
+	color:   dimgray;
+	width: 700px;
+	margin-left: 350px;
+}
+.jianjie-2 ul li{
+    
+	padding: 10px;
+	float: none;
+	
+}
+
+
+/*     专业技能     */
+.zhuanye{
+	width:100%;
+	height:  100vh;
+	background-color: coral;
+}
+.zhuanye h1{
+	 line-height: 100px;
+	 text-align: center;
+	
+}
+.zhuanye-1{
+	margin-left: 10%;
+	height: 450px;
+	width: 300px;
+	background-color:   cornsilk;
+	position: absolute;
+	text-align: center;
+	box-shadow: 10px 10px 5px #A9A9A9;
+}
+.zhuanye-1 ul li{
+	width: 300px;
+	height: 100px;
+	
+	font-size: 25px;
+	line-height: 100px;
+}
+.zhuanye-2 ul li{
+	width: 300px;
+	height: 100px;
+	
+		font-size: 25px;
+	line-height: 100px;
+}
+.zhuanye-3 ul li{
+	width: 300px;
+	height: 100px;
+	
+		font-size: 25px;
+	line-height: 100px;
+}
+.zhuanye-2{
+	margin-left: 40%;
+	height: 450px;
+	width: 300px;
+	background-color:cornsilk;
+	position: absolute;
+	text-align: center;
+	box-shadow: 10px 10px 5px #A9A9A9;
+}
+.zhuanye-3{
+	margin-left: 70%;
+	height: 450px;
+	width: 300px;
+	background-color: cornsilk;
+	position: absolute;
+	text-align: center;
+	box-shadow: 10px 10px 5px #A9A9A9;
+}
+.zhuanye div ul li:hover{
+	
+	background-color:  greenyellow ;
+	color: white;
+	
+}
+.zhuanye h1{
+	color: white;
+}
+
+/*     应聘职位     */
+.zhiwei{
+	width:100%;
+	height:  100vh;
+	background-color:   darkgray;
+}
+
+.zhiwei div img{
+	width: 200px;
+	height: 200px;
+	border-radius:150px ;
+	margin-left: 20%;
+	margin-top: 50px;
+	position: relative;
+	
+}
+.zhiwei div{
+	position: relative;
+}
+.zhiwei div div{
+	color: white;
+	margin-left: 900px;
+    margin-top: -100px;
+	font-size: 20px;
+	position: absolute;
+}
+.zhiwei h1{
+	line-height: 100px;
+	text-align: center;
+	color: white;
+	
+}
+.zhiwei div img:hover{
+	
+	animation: shang 1s;
+	animation-fill-mode: forwards;
+	
+}
+.zhiwei-1{
+	
+	width: 250px;
+	height: 250px;
+	
+	margin-left: 200px;
+}
+.zhiwei-2{
+	width: 100px;
+	height: 100px;
+	
+	
+	
+	
+}
+
+@-webkit-keyframes shang
+ {
+   0%   {left:0px;}
+
+100% { left:30px;}  
+}
+/*     关于我     */
+.wo{
+	width:100%;
+	height:  100vh;
+	background-color: #000000;
+}
+.wo-2{
+	width: 350px;
+	height: 500px;
+	box-shadow: 1px 1px 5px 5px  white;
+	float: right;
+	margin-top: 100px;
+	margin-right: 100px;
+	position: relative;
+}
+
+.wo-2 img{
+	display: none;
+	width: 350px;
+	height: 500px;
+	position: absolute;
+	
+}
+.wo-2  img:first-child{
+	
+	display: block;
+}
+	.wo-1{
+			position: relative;
+			width: 150px;
+			height: 20px;
+			top: 95%;
+			left:75%;
+		
+		}
+		.wo-1 ul li{
+			list-style-type: none;
+			float: left;
+			width: 20px;
+			height: 20px;
+			border-radius:9px ;
+			background-color: white;
+			text-align: center;
+			cursor: pointer;
+            margin:0 3px ;
+		}
+		.wo-1 ul li.on{
+			
+			background-color: aquamarine;
+			
+		}
+
+
+.wo-3 {
+	width: 500px;
+	
+	
+	color: white;
+	font-size: 20px;
+	margin-left: 400px;
+	margin-top: 350px;
+}
+
+.wo-3 span:last-child{
+	margin-left: 50px;
+	color: #ADFF2F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
